@@ -44,6 +44,14 @@ print(hammingDistance('!!!!', '****'))
     
     
 # Problem 2
+def isPrime(num):
+    for i in range(2, int(num/2)+1):
+        if (num % i) == 0:
+              var = False
+        else:
+             var = True
+    return var
+print(isPrime(29))
 
 # Problem 3
 
