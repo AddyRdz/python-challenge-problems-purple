@@ -11,8 +11,9 @@ even_range(4, 11) => [ 4, 6, 8, 10 ]
 even_range(8, 5) => []
 *******************************************************************************/
 """
-even_range(12,21,2)
-print(even_range)
+# Write a function.
+# Want even numbers.
+# Sequential order.
 
 ```
 
@@ -35,6 +36,11 @@ phrase_finder(['world', 'bootcamp', 'hello', 'prep'], 'hello prep') => True
 phrase_finder(['world', 'bootcamp', 'hello', 'prep'], 'hello goodbye') => False
 *******************************************************************************/
 """
+# Write a function.
+# Takes in a list.
+# True if phrase can be formed by letters on string.
+
+phrase_finder(words,phrase):
 
 ```
 
