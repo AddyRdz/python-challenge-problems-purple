@@ -54,5 +54,17 @@ def isPrime(num):
 print(isPrime(29))
 
 # Problem 3
-
+def find_the_parity_outlier(numbers):
+    even = []
+    odd = []
+    for num in numbers:
+        if num % 2 == 0:
+            even.append(num)
+        else:
+            odd.append(num)
+    if len(even) == 1:
+        return even[0]
+    else:
+        return odd[0]
+print(find_the_parity_outlier([2, 4, 0, 100, 4, 11, 2602, 36]))
 

@@ -3,7 +3,8 @@
 # Your test/solution code here 
 
 def reverse_string(string):
-    for w in string
+    reversed = '' .join(reversed(string))
+print(reversed)
 # Problem 0
 
 # Problem 1
