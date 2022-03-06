@@ -8,10 +8,17 @@
 # def multiples(max,num):
 # mutiples of sum
 # if max < num print multiples
+
 # Problem 1
+# def flatten():
+# Accepts nested lists and returns one long list.
+# recursion?
+# tuples also included
 
 # Problem 2
+# def is_winning_ticket():
 
 # Problem 3
+# def grid_trip():
 
 
